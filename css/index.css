@@ -363,6 +363,10 @@ body .menu .container .menu-item .search form button {
   background-color: transparent;
   border: none;
   cursor: pointer;
+  transition: color 0.5s;
+}
+body .menu .container .menu-item .search form button:hover {
+  color: var(--text-color-primary);
 }
 body .menu .container .menu-item .add-people {
   font-size: 24px;
@@ -376,6 +380,12 @@ body .menu .container .menu-item .add-people {
   cursor: pointer;
   padding-right: 30px;
   padding-left: 25px;
+  transition: color 0.5s;
+}
+body .menu .container .menu-item .add-people:hover {
+  color: var(--text-color-primary);
+  background-color: var(--bg-color-light);
+  border: 2px solid var(--text-color-primary);
 }
 body .body .container .table-container table thead th {
   background-color: var(--bg-color-primary);
@@ -407,6 +417,11 @@ body .body .container .table-container table tbody tr .btnDelete {
   color: var(--text-color-light);
   cursor: pointer;
   border: 1px solid grey;
+  transition: color 0.5s;
+}
+body .body .container .table-container table tbody tr .btnDelete:hover {
+  background-color: var(--bg-color-light);
+  color: var(--text-danger-1);
 }
 body .body .container .table-container table tbody tr .btnEdit {
   padding: 5px;
@@ -415,6 +430,11 @@ body .body .container .table-container table tbody tr .btnEdit {
   color: var(--text-color-light);
   cursor: pointer;
   border: 1px solid grey;
+  transition: color 0.5s;
+}
+body .body .container .table-container table tbody tr .btnEdit:hover {
+  background-color: var(--bg-color-light);
+  color: var(--text-color-secondary);
 }
 body .addPanel {
   position: absolute;
